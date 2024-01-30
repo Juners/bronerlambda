@@ -16,7 +16,7 @@ async function getStoredEmoteData() {
     const item = (await client.send(scanCommand)).Items[0];
     if (!item) return { twitch: {}, seventv: {} };
 
-    const emoteData = { date: item.date.S, json: item.json.S };
+    const emoteData = { json: item.json.S };
 
     return JSON.parse(emoteData.json);
   } catch (e) {
