@@ -1,0 +1,11 @@
+{
+  "name": "bronerlambda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {},
+  "scripts": {},
+  "author": "",
+  "license": "ISC"
+}
